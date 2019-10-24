@@ -13,6 +13,10 @@ Instalasi database :
 －Buka aplikasi pgAdmin
 －Create Server dengan ketentuan sebagai berikut :
 
+  spring.datasource.url=jdbc:postgresql://localhost:5432/apiary-proxy
+  spring.datasource.username=postgres 
+  spring.datasource.password=admin
+  spring.datasource.platform=postgresql
 
 －Buat database dengan nama apiary-proxy
 －Restore file apiary-proxy.sql
